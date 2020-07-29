@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ravenpack-alphabet"
+version = "0.1.0"
+description = "Code assessment. Alphabet soup implementation and running time analysis"
+authors = ["Javier del Saz Sánchez <javier.delsaz@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^2.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.6"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
