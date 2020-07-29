@@ -3,6 +3,7 @@ import pytest
 
 scenarios = [
     ('ana', ['a', 'a', 'n'], True),
+    ('eee', ['e', 'e', 'n'], False),
     ('ana', ['a', 'a', 'a'], False),
     ('javier', ['a', 'r', 'e', 'i', 'v', 'j'], True),
     (' ', ['a', 'r', 'e', 'i', 'v', 'j', ' '], True),
