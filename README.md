@@ -15,7 +15,7 @@ Inside booth functions we perform actions against our dict (extra work) like sto
 
 Source: https://www.ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt
 
-(technically we can complicate things on that hash as with creating a lot of collisions that could force actions perform a linear scan, and thus perform as `O(n), but cases should be extremely rare)    
+(technically we can complicate things on that hash as with creating a lot of collisions that could force hash to do a linear scan, and thus perform as `O(n), but cases should be extremely rare)    
 
 So simplifying per language or architecture details, we can conclude algorithm has a running time of
 `O(n) + O(n)` which equals to `O(n + s)`
@@ -23,18 +23,18 @@ So simplifying per language or architecture details, we can conclude algorithm h
 
 ## Installation
 
+Clone this repo and enter project's directory
 
+`git clone https://github.com/Ingravido/rv-alphabet.git && cd rv-alphabet`
 
+Install dependencies and enter virtual environment shell. 
 
+`poetry install && poetry shell` 
 
+Run the tests
 
-       
+`pytest --cov=ravenpack_alphabet ./tests`
 
+IMPORTANT NOTE: I used poetry, to install poetry do `curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python`
 
-
-
-
-
-
-
-
+I would create a branch using requirements.txt, setup.py etc. But maybe its not adding so much value for the case of this assessment. If poetry is not an option, let me know and will do it.
