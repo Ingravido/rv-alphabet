@@ -18,7 +18,7 @@ Source: https://www.ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt
 (technically we can complicate things on that hash as with creating a lot of collisions that could force hash to do a linear scan, and thus perform as `O(n), but cases should be extremely rare)    
 
 So simplifying per language or architecture details, we can conclude algorithm has a running time of
-`O(n) + O(n)` which equals to `O(n + s)`
+`O(n) + O(s)` which equals to `O(n + s)`
 
 
 ## Installation
